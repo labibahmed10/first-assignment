@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+  font-size: 14px;
+}
+
+main {
+  width: 85%;
+  margin: 0 auto;
+}
+
+/* introduction parts design starts here */
+
+.intro-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: justify;
+  margin: 30px 0px;
+}
+.top-text {
+  width: 50%;
+}
+
+.h1-part {
+  border-left: 4px solid;
+  border-image: linear-gradient(rgb(118, 61, 199), rgb(187, 116, 136));
+  border-image-slice: 1;
+}
+
+.h1-part h1 {
+  font-size: 3.3rem;
+  font-family: "Lora", serif;
+  padding-left: 12px;
+}
+
+h1 span {
+  color: rgb(179, 95, 209);
+}
+
+.top-text p {
+  font-size: 1rem;
+  margin-bottom: 40px;
+}
+
+.top-text a {
+  text-decoration: none;
+  background: linear-gradient(rgb(98, 41, 179), rgb(194, 120, 142));
+  padding: 12px 24px;
+  color: white;
+  border-radius: 8px;
+}
+
+.top-image-part {
+  width: 40%;
+}
+
+.top-image-part img {
+  width: 90%;
+}
+
+/* introduction parts design ends here */
+
+/* mission parts design starts here */
+
+.mission-part h1 {
+  font-size: 2.6rem;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+.mission-details {
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+  margin: 80px 0px;
+}
+
+.msn-card {
+  width: 290px;
+  padding: 20px;
+  text-align: justify;
+  border-radius: 25px;
+}
+
+.msn-card-1 {
+  background: #b8dfd8;
+}
+
+.msn-card-2 {
+  background: #edd2f3;
+}
+
+.msn-card-3 {
+  background: #cee5d0;
+}
+.msn-card img {
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* mission parts design ends here */
+
+/* article parts design starts here */
+
+.article-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+  width: 100%;
+}
+
+.art-img {
+  width: 40%;
+}
+
+.art-img img {
+  width: 90%;
+}
+
+.art-text {
+  width: 60%;
+}
+
+.art-text h3 {
+  font-family: "Merriweather", serif;
+  font-size: 2.4rem;
+  line-height: 16px;
+}
+.art-text p {
+  margin-bottom: 40px;
+  padding-right: 5px;
+}
+
+.art-text a {
+  text-decoration: none;
+  background: linear-gradient(rgb(98, 41, 179), rgb(194, 120, 142));
+  padding: 12px 24px;
+  color: rgb(255, 255, 255);
+  border-radius: 7px;
+}
+
+/* article parts design ends here */
+
+/* feature or tesla parts design starts here */
+.feature-part {
+  text-align: center;
+}
+
+.feature-part h1 {
+  font-size: 2.5rem;
+}
+.all-abt-tesla {
+  display: flex;
+  align-items: center;
+}
+
+.tesla-img {
+  width: 50%;
+}
+.tesla-img img {
+  width: 100%;
+}
+
+.tesla-abt {
+  width: 50%;
+  text-align: justify;
+}
+
+.tesla-abt p {
+  margin-bottom: 40px;
+}
+
+.tesla-abt a {
+  text-decoration: none;
+  background: linear-gradient(rgb(98, 41, 179), rgb(194, 120, 142));
+  padding: 12px 24px;
+  color: white;
+  border-radius: 8px;
+}
+
+/* feature or tesla parts design ends here */
+
+/* footer parts design starts here */
+footer {
+  background: rgb(2, 2, 2);
+  padding: 10px 20px;
+  text-align: center;
+  color: white;
+}
+
+footer h1 {
+  font-size: 2.3rem;
+  font-family: "Lora", serif;
+}
+
+/* footer parts design ends here */
